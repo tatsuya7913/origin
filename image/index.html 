@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私のプロフィールページ</title>
+    <style>
+        /* 簡単な見た目の調整（CSS） */
+        body {
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ddd;
+        }
+        h2 {
+            color: #2c3e50;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ようこそ！私のホームページへ</h1>
+        <p>Web制作の練習用に作ったページです。</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>自己紹介</h2>
+            <p>はじめまして！現在、HTMLとCSSの基礎を勉強中です。</p>
+            <p>少しずつコードを書いて、自分だけのウェブサイトを作れるように頑張ります！</p>
+        </section>
+
+        <section>
+            <h2>趣味・好きなこと</h2>
+            <ul>
+                <li>カフェ巡り</li>
+                <li>読書</li>
+                <li>プログラミング</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>お気に入りリンク</h2>
+            <p><a href="https://www.google.com" target="_blank">Googleで検索する</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Homepage</p>
+    </footer>
+
+</body>
+</html>
